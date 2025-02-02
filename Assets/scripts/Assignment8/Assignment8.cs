@@ -8,14 +8,19 @@ public class Assignment8 : MonoBehaviour
     void Start()
     {
         // Exercise 1: Number Generator:
-        int i = 0;
-        while (i < 20)
+        int randomNum;
+        while (true)
         {
-            Debug.Log(Random.Range(1, 21));
-            Debug.Log(i);
-            if (i == 5) continue;
-            if (i == 15) break;
-            i++;
+            randomNum = Random.Range(1, 21);
+            if (randomNum == 5)
+            {
+                Debug.Log("randomNum 15 skipped");
+                continue;
+            };
+            if (randomNum == 15) break;
+            Debug.Log(randomNum);
         }
+        Debug.Log("The program has stopped because the random number is: " + randomNum);
     }
+
 }
