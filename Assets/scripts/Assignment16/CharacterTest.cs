@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assignment18
+namespace Assignment16
 {
     public class CharacterTest : MonoBehaviour
     {
