@@ -25,6 +25,7 @@ namespace Assignment27
         {
             val += 10;
         }
+
         void assignValueUsingOut(out int val)
         {
             val = 5;
